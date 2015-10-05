@@ -1,13 +1,11 @@
 package com.natrollus.klavye;
 
-import android.content.Intent;
 import android.inputmethodservice.InputMethodService;
 import android.inputmethodservice.Keyboard;
 import android.inputmethodservice.KeyboardView;
 import android.view.KeyEvent;
 import android.view.View;
 import android.view.inputmethod.InputConnection;
-import android.view.inputmethod.InputMethodSubtype;
 
 import java.util.HashMap;
 import java.util.List;
