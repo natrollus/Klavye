@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.natrollus.klavye.KlavyeView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/klavye"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:keyTextSize="18sp"
+    android:keyPreviewLayout="@layout/onizleme"
+    android:keyBackground="@drawable/klavye_arkaplan"
+    >
+
+</com.natrollus.klavye.KlavyeView>
