@@ -4,22 +4,14 @@ import android.content.Context;
 import android.graphics.Canvas;
 import android.graphics.Color;
 import android.graphics.Paint;
-import android.inputmethodservice.Keyboard;
 import android.inputmethodservice.Keyboard.Key;
 import android.inputmethodservice.KeyboardView;
 import android.util.AttributeSet;
-import android.view.KeyEvent;
-import android.view.MotionEvent;
-import android.view.View;
-import android.view.inputmethod.InputMethodManager;
 
 import java.util.List;
 
 import static com.natrollus.klavye.Araclar.logla;
 
-/**
- * Created by byram on 9/29/15.
- */
 public class KlavyeView extends KeyboardView {
 
     Paint p = new Paint();
