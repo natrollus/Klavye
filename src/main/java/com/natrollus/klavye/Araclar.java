@@ -18,5 +18,5 @@ public class Araclar {
 		return (float) Math.sqrt(x*x+y*y);
 	}
     //biraz yorum katalim
-
+	//biraz daha katalim
 }
