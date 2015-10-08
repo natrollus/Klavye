@@ -65,7 +65,7 @@ public class KlavyeView extends KeyboardView {
         p.setColor(Color.LTGRAY);
         int h = 0,i = 0;
         String[] ust_sayi = {"=","!","^","#","+","%","&","(",")","*"};
-        String[] ust_harf = {"@","é","ü","ı","ö","ş","ğ","[","]","<",">","ç","{","}"};
+        String[] ust_harf = {"@","é","ü","ı","ö","|","ş","ğ","_","[","]","<",">","ç","{","}"};
         String[] ust_isaret = {"'","?",":","\\",";"};
         for (Key key:keys) {
             String etiket = String.valueOf((char)key.codes[0]);
@@ -74,7 +74,7 @@ public class KlavyeView extends KeyboardView {
                     ciz(key,ust_sayi[Integer.valueOf(etiket)]);
                 } else if (etiket.matches("[a-z]")){
 
-                    if (etiket.matches("[qeuiosgklzxcnm]")){
+                    if (etiket.matches("[qeuiopsgjklzxcnm]")){
                         ciz(key,ust_harf[h]);
                         h++;
                     }
