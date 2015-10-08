@@ -11,7 +11,4 @@ public class Araclar {
     public static void logla(Object s){
         Log.v("bilgi",""+s);
     }
-    public static void tostla(Context context,String s) {
-        Toast.makeText(context, "" + s, Toast.LENGTH_LONG).show();
-    }
 }
