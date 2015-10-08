@@ -15,7 +15,7 @@ public class Araclar {
 	public float uzaklik(Point a,Point b){
 		float x = a.x - b.x;
 		float y = a.y - b.y;
-		return (float) Math.sqrt(x*x+y*y);
+		return (float) Math.sqrt(Math.pow(x,2)+Math.pow(y,2));
 	}
     //biraz yorum katalim
 	//biraz daha katalim
