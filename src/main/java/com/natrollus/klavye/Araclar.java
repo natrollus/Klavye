@@ -9,6 +9,6 @@ public class Araclar {
         Log.v("bilgi",""+s);
     }
     public void toast(Context context,String s) {
-        Toast.makeText(context,""+s,Toast.LENGTH_LONG);
+        Toast.makeText(context,""+s,Toast.LENGTH_LONG).show();
     }
 }
